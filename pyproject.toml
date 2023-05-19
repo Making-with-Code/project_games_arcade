@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project-games-arcade"
+version = "0.1.0"
+description = ""
+authors = ["emma <eqbrown@isf.edu.hk>"]
+readme = "README.md"
+packages = [{include = "project_games_arcade"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+arcade = "^2.6.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
